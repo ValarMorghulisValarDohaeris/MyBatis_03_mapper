@@ -189,7 +189,7 @@ public class MyBatisTest {
 //            System.out.println(employee);
 //            System.out.println(employee.getDept());
 
-            Employee employee = employeeMapperPlus.getEmpByIdStep(1);
+            Employee employee = employeeMapperPlus.getEmpByIdStep(3);
             System.out.println(employee);
             System.out.println(employee.getDept());
         }finally {
